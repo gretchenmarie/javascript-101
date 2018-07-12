@@ -37,7 +37,9 @@ addToDom.innerHTML = newStuff;
 
 console.log ("newStuff", newStuff);
 
-for (let 1 = 0; i < domItems.length; i++){
-    domItems[i].style.backgroundcolor = "red";
+var domItems = document.getElementsByClassName ("super");
+
+for (let i = 0; i< domItems.length; i++) {
+    domItems[i].style.backGroundColor="red";
 }
 
